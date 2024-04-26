@@ -1,0 +1,36 @@
+nome: "Marcia"
+idade: 30
+
+# Exemplo de como comentar
+objeto: # Comentários podem ser colocados ao lado
+  versao: 2
+  arquivo: "teste.txt"
+
+versao: 2
+versao_completa: 3.14
+
+string_sem_aspas: Digite um texto aqui
+texto: "Este tambem e um texto valido para o YAML"
+
+nulo: ~
+nulo_dois: null
+
+verdadeiro: True
+verdadeiro2: On
+
+falso: False
+falso2: Off
+
+arrays: [1, 2, 3]
+arrays2:
+  - 1
+  - 2
+  - 3
+
+obj: {a: 1, b: 2, c: 3}
+
+objeto2:
+  a: 1
+  b: 2
+  objeto_interno:
+    x: 3
